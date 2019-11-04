@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Unlocking Android",
+    "isbn": "1933988673",
+    "pageCount": 416,
+    "shortDescription": "Unlocking Android: A Developer's Guide provides "
+  },
+  {
+    "title": "Android in Action, Second Edition",
+    "isbn": "1935182722",
+    "pageCount": 592,
+    "shortDescription": "Android in Action, Second Edition is a comprehensive tutorial for "
+  },
+  {
+    "title": "Specification by Example",
+    "isbn": "1617290084",
+    "pageCount": 0,
+    "shortDescription": "Android in Action, Second Edition is a comprehensive tutorial for Android developers. "
+  },
+  {
+    "title": "Flex 3 in Action",
+    "isbn": "1933988746",
+    "pageCount": 576,
+    "shortDescription": "New web applications require engaging user-friendly interfaces..."
+  },
+  {
+    "title": "Flex 4 in Action",
+    "isbn": "1935182420",
+    "pageCount": 600,
+    "shortDescription": "Using Flex, you can create high-quality, effective, "
+  },
+  {
+    "title": "Collective Intelligence in Action",
+    "isbn": "1933988312",
+    "pageCount": 425,
+    "shortDescription": "There's a great deal of wisdom in a crowd, but how do you liste"
+  },
+  {
+    "title": "Zend Framework in Action",
+    "isbn": "1933988320",
+    "pageCount": 432,
+    "shortDescription": "Zend Framework in Action is a comprehensive tutorial that shows how to use the Zend Framework "
+  },
+  {
+    "title": "Flex on Java",
+    "isbn": "1933988797",
+    "pageCount": 265,
+    "shortDescription": "   A beautifully written book that is a must have for every Java Developer.."
+  },
+  {
+    "title": "Griffon in Action",
+    "isbn": "1935182234",
+    "pageCount": 375,
+    "shortDescription": "Griffon in Action is a comprehensive tutorial written for Java."
+  },
+  {
+    "title": "OSGi in Depth",
+    "isbn": "193518217X",
+    "pageCount": 325,
+    "shortDescription": "Enterprise OSGi shows a Java developer how to develop to the OSGi Service Platform Enterprise ."
+  },
+  {
+    "title": "Flexible Rails",
+    "isbn": "1933988509",
+    "pageCount": 592,
+    "shortDescription": "Flexible Rails created a standard to which I hold other technical books. You definitely get your money's worth."
+  },
+  {
+    "title": "Hello! Flex 4",
+    "isbn": "1933988762",
+    "pageCount": 258,
+    "shortDescription": "Hello! Flex 4 progresses through 26 self-contained examples selected so you can progressively master Flex. "
+  },
+  {
+    "title": "Coffeehouse",
+    "isbn": "1884777384",
+    "pageCount": 316,
+    "shortDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web."
+  }
+]
