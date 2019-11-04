@@ -1,7 +1,13 @@
-.kitap-listesi{
+.kitap-listesi {
+    display: flex;
+    flex-direction: column;
 
-  padding: 10px;
-  display: flex;
-  flex-direction: column; 
+    .description {
+      padding: 3px;
 
+      &:hover {
+            background-color: lightgrey;
+            border-radius: 3px;
+        }
+    }
 }

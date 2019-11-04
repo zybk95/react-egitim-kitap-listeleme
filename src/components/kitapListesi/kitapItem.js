@@ -1,9 +1,12 @@
-
 import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { selectBook, deleteBook } from '../../actions'
+
 
 class KitapItem extends Component {
   render() {
     const { kitap } = this.props;
+
     return (
       <div className="card">
         <div className="content">
@@ -14,8 +17,21 @@ class KitapItem extends Component {
         </div>
         <div className="extra content">
           <div className="ui two buttons">
-            <div className="ui basic green button">Seç</div>
-            <div className="ui basic red button">Sil</div>
+            
+            <div className="ui basic green button"
+              onClick={() => {
+                this.props.selectBook(kitap)
+              }}>
+                Seç
+            </div>
+
+            <div className="ui basic red button"
+              onClick={() => {
+                this.props.deleteBook(kitap)
+              }}>
+              Sil
+            </div>
+          
           </div>
         </div>
       </div>
@@ -23,4 +39,5 @@ class KitapItem extends Component {
   }
 }
 
-export default KitapItem
+
+export default connect(null, { selectBook, deleteBook })(KitapItem)

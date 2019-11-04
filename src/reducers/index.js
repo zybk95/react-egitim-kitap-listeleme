@@ -30,5 +30,5 @@ const kitapSecimReducers = (oldSelectedBook = {}, action) => {
 
 export default combineReducers({
   kitapListesi: kitapListesiReducers,
-  kitapSecim: kitapSecimReducers
+  kitapSecimK: kitapSecimReducers
 });

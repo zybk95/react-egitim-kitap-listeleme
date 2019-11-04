@@ -3,23 +3,22 @@ import { connect } from 'react-redux';
 import KitapItem from './kitapItem';
 //---------------------------------------
 // import aksiyon from '../../actions'
-import { addBook } from '../../actions';
+// import { addBook } from '../../actions';
 // Sadece addBook metodunu kulanmak isteseydik böyle yapacaktık amma valakin ki biz tüm
 //actionları kullanmak istiyoruz o yüzden yukarudaki gibi kullandık şimdi aksiyon. yazıp hepsini kullana biliriz...
 //---------------------------------------
 
-//--------CSS----------------
+//--------CSS---------------
 import './kitapListesi.scss';
 
 class KitapListesi extends Component {
-
   componentDidMount(state) {
-    this.props.addBook({
-      title: 'Cin Ali',
-      isbn: 3333333333,
-      pageCount: 400,
-      shortDescription: "Cin ali hikayeleri....",
-    });
+    // this.props.addBook({
+    //   title: 'Cin Ali',
+    //   isbn: 3333333333,
+    //   pageCount: 400,
+    //   shortDescription: "Cin ali hikayeleri....",
+    // });
   }
 
   render() {
@@ -48,13 +47,13 @@ class KitapListesi extends Component {
  * oradan o değerleri nasıl alacağız şimdi ona bakalım...
 *************************************************/
 const mapStateToPropsX = (state) => {
-  console.log("\n----Map state to props-----")
-  console.log(state);
+  // console.log("\n----Map state to props-----")
+  // console.log(state);
   return {
     kitapListesi: state.kitapListesi
   }
 }
 
-
 //connect() ile redux'un react compent ile (ki burada bu kitaplistesi oluyor) konuşmasını sağlayabliyormuşuz...
-export default connect(mapStateToPropsX, { addBook })(KitapListesi);
+// export default connect(mapStateToPropsX, { addBook })(KitapListesi);
+export default connect(mapStateToPropsX)(KitapListesi);
